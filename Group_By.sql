@@ -3,7 +3,7 @@ show tables;
 CREATE TABLE employees (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50) NOT NULL,
-    department VARCHAR(50),
+    department VARCHAR(50), 
     job_role VARCHAR(50),
     salary INT,
     age INT,
